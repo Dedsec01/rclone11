@@ -8,7 +8,7 @@ grade: stable
 
 apps:
   rclone:
-    command: env HOME="$SNAP_USER_COMMON" XDG_CONFIG_HOME="$SNAP_USER_COMMON" "$SNAP/rclone"
+    command: bin/rclone
     plugs: [home, network, network-bind]
 
 parts:
