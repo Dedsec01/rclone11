@@ -7,7 +7,7 @@ grade: stable
 
 apps:
   rclone:
-    command: /usr/sbin/rclone
+    command: bin/rclone
 
 parts:
   rclone:
